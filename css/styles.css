@@ -1,1 +1,272 @@
 /*main-header*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #212121;
+
+}
+
+/*убирается подчеркивание ссылок*/
+.link {
+    text-decoration: none;
+}
+
+/*убираются точки в списке*/
+.list {
+    list-style: none;
+}
+
+/*Стиль навигации*/
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+   
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #2196F3;
+}
+
+
+/*стиль почты*/
+.header-email{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+
+/*стиль телефона*/
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color:  #2196F3;
+}
+
+/*Главная*/   /**/
+.heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /*color: #FFFFFF;*/
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    /*color: #FFFFFF;*/
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color: #ffffff;  
+}
+
+
+/*Преимущества*/ /**/
+.advantages {
+
+}
+
+.advantages-heading {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages-heading-descr {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*Чем мы занимаемся*/
+
+.services {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.services-list-descr {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /*color: #FFFFFF;*/
+}
+
+/*Наша комманда*/
+.team,
+.clients {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-staff-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-staff {
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: #2196F3;
+}
+
+/*Контакты*/
+
+.logo-color-blue {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+
+.logo-color {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    /*color: #FFFFFF;*/
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    /*color: #FFFFFF;*/
+}
+
+.footer-email,
+.footer-tel
+ {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/*присоединяйтесь*/
+.subscription {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /*color: #FFFFFF;*/
+}
+
+
+.projects {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.our-projects {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+.our-projects-descr {
+    font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+letter-spacing: 0.03em;
+/*color: #FFFFFF;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
