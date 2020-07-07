@@ -17,6 +17,17 @@ body {
 
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 /*убирается подчеркивание ссылок*/
 .link {
     text-decoration: none;
@@ -37,6 +48,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--title-light-theme-color);
    
+}
+
+.header-email,
+.header-tel {
+    color: var(--text-light-theme-color);  
 }
 
 .nav-list-link:hover,
@@ -184,11 +200,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     /*color: var(--text-dark-theme-color);*/
-}
-
-.footer-email,
-.footer-tel {
-    /*color: rgba(255, 255, 255, 0.6);*/
 }
 
 /*присоединяйтесь*/
